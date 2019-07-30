@@ -72,7 +72,7 @@ embl_content_meta_properties:
           <li><a href="#">Use your coding superpowers for good</a><span class="cp-meta">April 14</span</li>
         </ul>
     </div>
-     
+
   </div>
 </div>
 </section>
