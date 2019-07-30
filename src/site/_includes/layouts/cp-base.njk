@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="all" href="https://dev.assets.emblstatic.net/vf/develop/css/styles.css" />
+  <link rel="stylesheet" media="all" href="{{ '/css/app.css' | url }}" />
+  <title>{{ title or (renderData and renderData.title) or siteConfig.siteInformation.title}} | EMBL.org</title>
+</head>
+<style>.vf-intro {margin-top: 3rem;}</style>
+<body class="{{ bodyClass }} cp " >
+
+  <header class="vf-header">
+      <div class="vf-global-header">
+        <div class="vf-global-header__inner">
+            {% render '@embl-logo--responsive' %}
+            <p class="vf-global-header__site-name">{{ text }}</p>
+            
+            <nav class="vf-navigation vf-navigation--global">
+            <ul class="vf-navigation__list | vf-list--inline">
+              <li class="vf-navigation__item">
+                <a href="/explore" class="vf-navigation__link">Explore</a>
+              </li>
+              <li class="vf-navigation__item">
+                <a href="#" class="vf-navigation__link">Search</a>
+              </li>
+              <li class="vf-navigation__item">
+                <a href="#" class="vf-navigation__link">Sign In</a>
+              </li>
+            </ul>
+            </nav>
+
+            <a class="vf-text vf-text--body-r vf-link embl-conditional-edit" href="https://dev.content.embl.org/node/574" target="_blank" rel="noopener noreferrer">Edit</a>
+        </div>
+      </div>
+  </header>
+
+<div class="vf-body">
+
+  {{ content | safe }}
+
+</div>
+{% include "cp-footer.njk" %}
+</body>
+</html>

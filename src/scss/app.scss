@@ -1,0 +1,94 @@
+// add any local sass here
+
+/* temporary override until https://github.com/visual-framework/vf-core/issues/399 is resolved */
+.vf-sr-only { display: none; }
+
+/* On these pages we don't want to show the beta phase. We need to figure this out at a higher level 😭 */
+.vf-banner.vf-banner--phase .vf-badge.vf-badge--primary { display: none; }
+
+/* CONTENT PROTOTYPE CSS styles and overrides */
+body.cp {
+
+    /* Overrides*/
+    a:hover {
+        background-color: #FFF59F;
+    }
+
+    .vf-grid__col-1 > * + * {
+        border-top: none;
+    }
+
+    /* content prototype (cp) styles */
+    .cp-image-responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    .vf-footer {
+        background-color: #dddddd;
+        border-top: 0;
+        color: #333333;
+        margin-top: 4em;
+    }
+
+    .cp-container {
+        font-size: 140%;
+        border-bottom: 2px solid red;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .cp-container__promo {
+        background-color: #eeeeee;
+        border: none;
+        padding: 1em;
+    }
+
+    .cp-lede {
+        font-size: 200%;
+        font-weight: bold;
+    }
+
+    .cp-card {
+        border: 1px solid #999999;
+        padding: 1em;
+    }
+
+    .cp-meta {
+        font-size: 80%;
+        font-style: italic;
+    }
+
+    .cp-box {
+        border: none;
+        background-color: #eeeeee;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 1em;
+    }
+
+    .cp-promo {
+        margin-top: 0;
+    }
+
+    .cp-input {
+        padding: 12px 15px 12px 15px;
+        font-size: 80%;
+        width: 60%;
+    }
+
+    .cp-breadcrumb {
+        margin-top: 1em;
+    }
+
+    .cp-table {
+        tr {
+        }
+        td {
+            vertical-align: top;
+            padding: 0.5em;
+            margin-top: 0.5em;
+            border-top: 1px solid #999999;
+        }
+    }
+}

@@ -1,0 +1,139 @@
+---
+title: Content prototype - Training
+date: 2018-11-08 12:34:56
+subtitle: sub title
+layout: layouts/cp-base.njk
+section: content-prototype
+embl_content_meta_properties:
+  who: tocome
+  what: tocome
+  where: tocome
+  active: tocome
+  utility: tocome
+  reach: tocome
+  maintainer: tocome
+  lastreview: tocome
+  reviewcycle: tocome
+  expiry: tocome
+---
+
+
+<section class="cp-container vf-grid vf-grid__col-1">
+  <nav class="vf-navigation vf-navigation--global">
+    <ul class="vf-navigation__list | vf-list--inline">
+      <li class="vf-navigation__item"><a href="../index.html" class="vf-navigation__link">Home</a></li>
+      <li class="vf-navigation__item"><a href="../research/index.html" class="vf-navigation__link">Research</a></li>
+      <li class="vf-navigation__item"><a href="../services/index.html" class="vf-navigation__link">Services</a></li>
+      <li class="vf-navigation__item"><a href="../training/index.html" class="vf-navigation__link">Training</a></li>
+      <li class="vf-navigation__item"><a href="../about/index.html" class="vf-navigation__link">About EMBL</a></li>
+    </ul>
+  </nav>
+</section>
+
+<section class="cp-container vf-grid vf-grid__col-1">
+  <h1>Training at EMBL</h1>
+</section>
+
+<section class="cp-container vf-grid vf-grid__col-1">
+<div>
+<div class="cp-box cp-promo">
+  <p class="meta"><a href="#">EMBO|EMBL Symposia</a>, <a href="#">EMBL Heidelberg</a>, Germany, 16 - 19 Oct 2019</p>
+  <h2><a href="#">The Non-Coding Genome</a></h2>
+  <p>The Non-Coding Genome  will explore the diverse, dynamic and multifaceted roles of RNA across a spectrum of cellular processes.</p>
+  <button class="vf-button">Register now</button>
+</div>
+
+<h3>Upcoming <a href="#">conferences</a>, <a href="#">seminars</a> and <a href="#">events</a></h3>
+<table>
+  <tbody>
+    <tr>
+      <td><span class="cp-meta">4 Sep</span><td>
+      <td><a href="#" class="cp-meta">Heidelberg</a></td>
+      <td><a href="#">EMBO Workshop: Protein Synthesis and Translational Control</a></td>
+    </tr>
+    <tr>
+      <td><span class="cp-meta">10 Sep</span><td>
+      <td><a href="#" class="cp-meta">EMBL-EBI Hinxton</a></td>
+      <td><a href="#">EMBL Course: Finding Evidence in Research Publications</a></td>
+    </tr>
+    <tr>
+      <td><span class="cp-meta">2 Oct</span><td>
+      <td><a href="#" class="cp-meta">Heidelberg</a></td>
+      <td><a href="#">EMBO | EMBL Symposium: Systems Genetics: From Genomes to Complex Traits</a></td>
+    </tr>
+    <tr>
+      <td><span class="cp-meta">7 Oct</span><td>
+      <td><a href="#" class="cp-meta">EMBL Hamburg</a></td>
+      <td><a href="#">EMBO Workshop: Tools for Structural Biology of Membrane Proteins</a></td>
+    </tr>
+  </tbody>
+</table>
+<p><a href="#">Browse all events</a></p>
+<p>Sign up for our event newsletter <button class="vf-button">Subscribe</button><p>
+</div>
+</section>
+
+<section class="cp-container vf-grid vf-grid__col-1">
+<div>
+  <h3>Programmes</h3>
+  <div class="vf-grid vf-grid__col-2">
+    <div>
+      <h4><a href="#">PhD Programme</a></h4>
+      <p>The EMBL International PhD Programme, originally established in 1983, represents the flagship of EMBL's commitment to first class training and education.</p>
+    </div>
+    <div>
+      <h4><a href="#">Post Doctoral Programme</a></h4>
+      <p>One of EMBL’s missions is to provide training to scientists at all career stages. The laboratory hosts approximately 260 postdoctoral researchers and is committed to providing them with the training, mentoring and career development support needed to successfully progress in their desired careers. </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="cp-container vf-grid vf-grid__col-1">
+<div>
+  <h3>Education</h3>
+  <div class="vf-grid vf-grid__col-3">
+    <div>
+      <h4><a href="#">EMBL's International Centre for Advanced Training (EICAT)</a></h4>
+      <p>EICAT is devoted to excellence in training at all stages of careers in the life sciences. It promotes advanced training activities between the six EMBL sites, between EMBL and its sister institution EMBO, as well as between the Laboratory and research organisations in the EMBL member states.</p>
+    </div>
+    <div>
+      <h4><a href="#">Undergraduates</a></h4>
+      <p>EMBL welcomes undergraduate students of all disciplines in the natural sciences extending from biology, chemistry, physics and mathematics to medicine, informatics and engineering.</p>
+    </div>
+    <div>
+      <h4><a href="#">Science for Schools</a></h4>
+      <p><a href="#">The European Learning Laboratory for the Life Sciences (ELLS)</a> provides high school science teachers with the hands-on expertise and theoretical know-how to bring concepts of molecular biology into the classroom through its LearningLABs, TeachingBASE and networking.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="cp-container vf-grid vf-grid__col-1">
+<div>
+  <h3><a href="#">Online courses &rarr;</a></h3>
+  <div class="vf-grid vf-grid__col-1">
+    <h4><a href="#">10th Anniversary Treasure Hunt</a></h4>
+    <p>In 2017 the EMBL-EBI Training Programme is celebrating 10 amazing years of providing onsite, offsite and online training in bioinformatics. To help celebrate this anniversary, we designed a treasure hunt to give you a taster of the free resources.</p>
+    <p class="meta"><a href="#">Webinar</a></p>
+    <hr />
+    <h4><a href="#">ArrayExpress: Discover functional genomics data quickly and easily</a></h4>
+    <p>ArrayExpress is a database of functional genomics data. This course will give you an overview of how these data are stored in ArrayExpress and will teach you how to effectively search and retrieve data from the ArrayExpress website </p>
+    <p class="meta"><a href="#">Webinar</a></p>
+    <hr />
+    <h4><a href="#">Biocuration: An introduction</a></h4>
+    <p>Claire O'Donovan, leader of the Protein Function Content team at EMBL-EBI, gives an introduction into biocuration and talks about what it is like to work as a biocurator and the skill sets you need. </p>
+    <p class="meta"><a href="#">Training course</a></p>
+    <hr />
+    <h4><a href="#">Bioinformatics for the terrified</a></h4>
+    <p>This course will give you a broad overview of how bioinformatics can enable bench-based research. It is aimed at experimental researchers in the molecular life sciences who have little or no previous experience of using bioinformatics databases.</p>
+    <p class="meta"><a href="#">Webinar</a></p>
+    <hr />
+    <h4><a href="#">Biomacromolecular structures: An introduction to EMBL-EBI resources</a></h4>
+    <p>Introduction to structural biology and related resources at EMBL-EBI.</p>
+    <p class="meta"><a href="#">e-learning module</a></p>
+    <hr />
+    <p class="cp-box">Browse all <a href="#">online training courses</a>, <a href="#">webinars</a> and <a href="#">e-learning modules.</a></p>
+  </div>
+</div>
+</section>
