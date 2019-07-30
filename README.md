@@ -1,16 +1,12 @@
-# EMBL.org static pages
+# EMBL.org conceptual pages
 
-For EMBL.org pages that to be built as static HTML using templates+ContentHub.
-
-Pages in the `/build` directory are rendered and pushed to [dev.beta.embl.org](http://dev.beta.embl.org)
-
-This allows you to use the [11ty](https://www.11ty.io) static site generator
-with direct access to Visual Framework 2.0 components.
+These pages demonstrate conceptual IA and navigation for EMBL.org. It does not
+reflect look or even necessarily content.
 
 ## What does this do?
 
 1. Templating: Uses `vf-eleventy`
-1. CI deploys to `dev.beta.embl.org`
+1. CI deploys to https://embl-communications.github.io/embl-conceptual-pages/
 
 ## Local development
 
