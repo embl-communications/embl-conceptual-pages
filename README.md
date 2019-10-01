@@ -8,6 +8,15 @@ reflect look or even necessarily content.
 1. Templating: Uses `vf-eleventy`
 1. CI deploys to https://embl-communications.github.io/embl-conceptual-pages/
 
+## How to do deployments
+
+1. Add a tag https://github.com/embl-communications/embl-conceptual-pages/releases
+1. Travis will run on the tag https://travis-ci.org/embl-communications/embl-conceptual-pages
+1. Travis deploys to a URL of the tag name; a la:
+  - https://embl-communications.github.io/embl-conceptual-pages/v1
+  - https://embl-communications.github.io/embl-conceptual-pages/v2
+  - https://embl-communications.github.io/embl-conceptual-pages/vMyNameOfChoice
+
 ## Local development
 
 You'll need to [install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and then:
