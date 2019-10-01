@@ -38,6 +38,10 @@ git clone --quiet --branch=gh-pages https://${GITHUB_TOKEN}@github.com/embl-comm
 
 #go into directory and copy data we're interested in to that directory
 cd gh-pages
+# mkdir $TRAVIS_TAG
+# cd $TRAVIS_TAG
+#temp cleanup/fake tags
+rm -rf v1 
 mkdir v1
 cd v1
 cp -Rf $HOME/* .
