@@ -26,7 +26,7 @@ echo "Starting to update gh-pages\n"
 ls -la
 
 #copy data we're interested in to other place
-cp -R dist $HOME/build
+cp -R build $HOME/build
 
 #go to home and setup git
 cd $HOME
