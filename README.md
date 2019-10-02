@@ -29,7 +29,7 @@ You'll need to [install npm](https://docs.npmjs.com/downloading-and-installing-n
    - `gulp dev` renders and serves
    - `gulp build` build static assets
 
-## Adding Visual Framework components
+## Adding Visual Framework components 
 
 To add a component you can use npm/Yarn or install it manually.
 
