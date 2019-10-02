@@ -3,6 +3,8 @@
 These pages demonstrate conceptual IA and navigation for EMBL.org. It does not
 reflect look or even necessarily content.
 
+View an index/directory of all versions: https://index--embl-conceptual-pages.netlify.com/ 
+
 ## What does this do?
 
 1. Templating: Uses `vf-eleventy`
