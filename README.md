@@ -17,9 +17,9 @@ reflect look or even necessarily content.
 ## How to do deployments
 
 1. Deploys are done with Netlify
-  - https://app.netlify.com/sites/embl-conceptual-pages/deploys
+    - https://app.netlify.com/sites/embl-conceptual-pages/deploys
 1. All branches are deployed with a pattern of:
-  - https://{{branchname}}--embl-conceptual-pages.netlify.com
+    - https://{{branchname}}--embl-conceptual-pages.netlify.com
 
 ## Local development
 
