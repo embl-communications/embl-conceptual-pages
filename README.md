@@ -59,3 +59,4 @@ In either case you'll need to re-run `npm run-script dev` to access the pattern.
   faster at installing and does so more efficiently (about half the total file size). You'll
   also be able to use `yarn upgrade-interactive --latest`, which makes it easier to update
   VF components.
+ 
