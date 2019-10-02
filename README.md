@@ -6,16 +6,14 @@ reflect look or even necessarily content.
 ## What does this do?
 
 1. Templating: Uses `vf-eleventy`
-1. CI deploys to https://embl-communications.github.io/embl-conceptual-pages/
+1. CI deploys to https://index--embl-conceptual-pages.netlify.com
 
 ## How to do deployments
 
-1. Add a tag https://github.com/embl-communications/embl-conceptual-pages/releases
-1. Travis will run on the tag https://travis-ci.org/embl-communications/embl-conceptual-pages
-1. Travis deploys to a URL of the tag name; a la:
-  - https://embl-communications.github.io/embl-conceptual-pages/v1
-  - https://embl-communications.github.io/embl-conceptual-pages/v2
-  - https://embl-communications.github.io/embl-conceptual-pages/vMyNameOfChoice
+1. Deploys are done with Netlify
+  - https://app.netlify.com/sites/embl-conceptual-pages/deploys
+1. All branches are deployed with a pattern of:
+  - https://{{branchname}}--embl-conceptual-pages.netlify.com
 
 ## Local development
 
