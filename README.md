@@ -8,6 +8,12 @@ reflect look or even necessarily content.
 1. Templating: Uses `vf-eleventy`
 1. CI deploys to https://index--embl-conceptual-pages.netlify.com
 
+## Branch structure
+
+- `master` latest version
+- `v1`, `v2` tagged incremental releases
+- `index` directory page of versions
+
 ## How to do deployments
 
 1. Deploys are done with Netlify
