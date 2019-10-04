@@ -23,7 +23,7 @@ templateEngineOverride: njk,md
     <ul class="vf-navigation__list | vf-list--inline">
       <li class="vf-navigation__item"><a href="{{ '/' | url }}" class="vf-navigation__link">Home</a></li>
       <li class="vf-navigation__item"><a href="{{ '/research' | url }}" class="vf-navigation__link">Research</a></li>
-      <li class="vf-navigation__item"><a href="{{ '/services' | url }}" class="vf-navigation__link">Services</a></li>
+      <li class="vf-navigation__item"><a href="{{ '/services' | url }}" class="vf-navigation__link">Services &amp; Facilities</a></li>
       <li class="vf-navigation__item"><a href="{{ '/training' | url }}" class="vf-navigation__link">Training</a></li>
       <li class="vf-navigation__item"><a href="{{ '/about' | url }}" class="vf-navigation__link">About EMBL</a></li>
     </ul>
@@ -38,23 +38,53 @@ templateEngineOverride: njk,md
   <div>
   <p class="cp-lede">From Genomes to Ecosystems – Life is Amazing! </p>
   <p>The diversity of animals, plants, microorganisms and all living systems results from a common core of information interpreted through millions of different biochemical pathways. Understanding how it all works,from the Genome to Ecosystems,is an enormous challenge – but that is what we do. <a href="#">Learn more about EMBL's research story</a></p>
-  <h2>Browse by <a href="#units">Research Unit</a>, <a href="#discipline">discipline</a> or <a href="">A-Z</a></h2>
+  <h2>Browse by <a href="#units">Topic</a>, <a href="#discipline">Research Unit</a> or <a href="">A-Z</a></h2>
   </div>
   <div>
     <img src="{{'/images/grey-box.png' | url }}"  class="cp-image-responsive"/>
   </div>
-
 </section>
 
+<section id="research" class="cp-container vf-grid vf-grid__col-1">
+<div>
+ <h2><a href="research/index.html">Research stories from EMBL &rarr;</a></h2>
 
-<h1 class="vf-grid vf-grid__col-1" id="#units">Research Units</h1>
+  <div class=" vf-grid vf-grid__col-3">
+      <div class="cp-card">
+        <img src="{{'/images/grey-box.png' | url }}"  class="cp-image-responsive"/>
+        <p class="cp-meta">Topic: <a href="#">Science</a></p>
+        <h3><a href="#">Happy hour for time-resolved crystallography</a></h3>
+      </div>
+       <div>
+          <p class="cp-meta"><a href="#">Tara</a></p>
+          <h3><a href="#">EMBL and Tara: Barcelona</a></h3>
+          <p>EMBL joins Tara in Barcelona to promote science and interdisciplinarity.</p>
+          <hr />
+          <p class="cp-meta"><a href="#">Science</a></p>
+          <h3><a href="#">B cells linked to immunotherapy</a></h3>
+          <p>Researchers find evidence that B cells may be more important in immunotherapy than previously thought.</p>
+      </div>
+    <div>
+          <p class="cp-meta"><a href="#">Research at EMBL</a></p>
+          <h3><a href="#">Understanding molecular mechanisms of ageing</a></h3>
+          <p>Researchers use epigenetic clock to identify gene linked to ageing in humans.</p>
+          <hr />
+          <p class="cp-meta"><a href="#">Science</a></p>
+          <h3><a href="#">MEG3 kissing loops essential for tumour suppression</a></h3>
+          <p>A team of researchers in the Marcia group at EMBL Grenoble have discovered that the tumour suppressor MEG3 adopts a complex three-dimensional structure to fulfil its function.</p>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<h1 class="vf-grid vf-grid__col-1" id="#units">Research topics at EMBL</h1>
 
 <section class="cp-container vf-grid vf-grid__col-1">
 <div>
- <h2><a href="cell-biology/index.html">Cell Biology and Biophysics &rarr;</a></h2>
-
   <div class=" vf-grid vf-grid__col-2">
     <div>
+      <h2><a href="cell-biology/index.html">Structural biology &rarr;</a></h2>
       <p>In this Unit, physicists and chemists work closely together with biologists to elucidate the fundamental rules that govern dynamic cell organisation and function. At the same time, groups are developing new instruments and technologies in order to reach this ambitious goal.</p>
       <ul>
         <li><a href="#">Unit members</a></li>
@@ -62,62 +92,42 @@ templateEngineOverride: njk,md
       </ul>
     </div>
     <div>
-      <img src="{{'/images/cp-avatar.png' | url }}" class="cp-image-fixed"/>
-      <h4><a href="#">Jan Ellenberg</a></h4>
-      <p>Head of Cell Biology and Biophysics Unit</p>
-    </div>
-  </div>
-</div>
-</section>
-
-<section class="cp-container vf-grid vf-grid__col-1">
-<div>
- <h2><a href="#">Developmental Biology &rarr;</a></h2>
-
-  <div class=" vf-grid vf-grid__col-2">
-    <div>
+      <h2><a href="#">Genome biology &rarr;</a></h2>
       <p>The development of multicellular organisms from single cells to adult animals requires the dynamic interplay of many cellular processes, coordinated in space and time. </p>
       <ul>
         <li><a href="#">Unit members</a></li>
         <li><a href="#">Research groups</a></li>
       </ul>
     </div>
-    <div>
-      <img src="{{'/images/cp-avatar.png' | url }}" class="cp-image-fixed"/>
-      <h4><a href="#">Anne Ephrussi</a></h4>
-      <p>Head of Developmental Biology Unit</p>
-    </div>
   </div>
 </div>
 </section>
 
 <section class="cp-container vf-grid vf-grid__col-1">
 <div>
- <h2><a href="#">Directors' Research &rarr;</a></h2>
-<p>The Directors' Research Unit covers thematically distinct research groups, headed by EMBL and EMBO’s leadership.</p>
-  <div class=" vf-grid vf-grid__col-3">
-    <div>
-      <h4><a href="#">Heard Group</a></h4>
-      <p>Epigenetic mechanisms in development and disease</p>
-    </div>
-    <div>
-      <h4><a href="#">Hentze Group</a></h4>
-      <p>RNA biology, metabolism and molecular medicine</p>
-    </div>
-    <div>
-      <h4><a href="#">Leptin Group</a></h4>
-      <p>	Cell shape and morphogenesis: subcellular and supracellular mechanisms</p>
-    </div>
+<div class=" vf-grid vf-grid__col-2">
+  <div>
+    <h2><a href="#">Molecular medicine &rarr;</a></h2>
+    <p>Scientists at EMBL Barcelona will explore how tissues and organs function and develop, in health and disease.</p>
+    <p>Alongside cutting-edge research, the site will house state-of-the-art imaging facilities, enabling scientists worldwide to access microscopy and modelling technologies specifically designed for studying tissues.</p>
+    <ul>
+      <li><a href="#">Unit members</a></li>
+      <li><a href="#">Research groups</a></li>
+      </ul>
   </div>
+  <div>
+    <h2><a href="#">Bioinformatic computational biology &rarr;</a></h2>
+    <p>The Directors' Research Unit covers thematically distinct research groups, headed by EMBL and EMBO’s leadership.</p>
+  </div> 
+</div>
 </div>
 </section>
 
 <section class="cp-container vf-grid vf-grid__col-1">
 <div>
- <h2><a href="#">Genome Biology &rarr;</a></h2>
-
   <div class=" vf-grid vf-grid__col-2">
     <div>
+      <h2><a href="#">Tissue & organ biology &rarr;</a></h2>
       <p>The genome encodes the genetic blueprint that coordinates all cellular processes, which ultimately give rise to phenotype. The expression of genetic information is tightly regulated in both time and space at multiple stages, including transcriptional, post-transcriptional and post-translational. </p>
       <ul>
         <li><a href="#">Unit members</a></li>
@@ -125,46 +135,22 @@ templateEngineOverride: njk,md
       </ul>
     </div>
     <div>
-      <img src="{{'/images/cp-avatar.png' | url }}" class="cp-image-fixed"/>
-      <h4><a href="#">Eileen Furlong</a></h4>
-      <p>Head of Unit</p>
-    </div>
-  </div>
-</div>
-</section>
-
-<section class="cp-container vf-grid vf-grid__col-1">
-<div>
- <h2><a href="#">Structural and Computational Biology &rarr;</a></h2>
-
-  <div class=" vf-grid vf-grid__col-3">
-    <div>
+      <h2><a href="#">Developmental biology &rarr;</a></h2>
       <p>The Unit pursues an ambitious research programme in integrated structural and computational systems biology bridging between various spatial and temporal scales.</p>
       <ul>
         <li><a href="#">Unit members</a></li>
         <li><a href="#">Research groups</a></li>
       </ul>
     </div>
-    <div>
-      <img src="{{'/images/cp-avatar.png' | url }}" class="cp-image-fixed"/>
-      <h4><a href="#">Peer Bork</a></h4>
-      <p>Head of Unit and Senior Scientist</p>
-    </div>
-    <div>
-      <img src="{{'/images/cp-avatar.png' | url }}" class="cp-image-fixed"/>
-      <h4><a href="#">Christoph Müller</a></h4>
-      <p>Head of Unit and Senior Scientist</p>
-    </div>
   </div>
 </div>
 </section>
 
 <section class="cp-container vf-grid vf-grid__col-1">
 <div>
- <h2><a href="#">Epigenetics and Neurobiology &rarr;</a></h2>
-
   <div class=" vf-grid vf-grid__col-2">
     <div>
+      <h2><a href="#">Microbiology &rarr;</a></h2>
       <p>The Unit studies varied mammalian physiological phenomena from a molecular perspective in the context of the whole organism with a very strong emphasis, following a recent refocusing of our research on Neurobiology and Epigenetics and their interface.</p>
       <ul>
         <li><a href="#">Unit members</a></li>
@@ -172,20 +158,7 @@ templateEngineOverride: njk,md
       </ul>
     </div>
     <div>
-      <img src="{{'/images/cp-avatar.png' | url }}" class="cp-image-fixed"/>
-      <h4><a href="#">Philip Avner</a></h4>
-      <p>Head of EMBL Rome</p>
-    </div>
-  </div>
-</div>
-</section>
-
-<section class="cp-container vf-grid vf-grid__col-1">
-<div>
- <h2><a href="#">Tissue Biology and Disease Modelling &rarr;</a></h2>
-
-  <div class=" vf-grid vf-grid__col-2">
-    <div>
+      <h2><a href="#">Cell biology &rarr;</a></h2>
       <p>Scientists at EMBL Barcelona will explore how tissues and organs function and develop, in health and disease.</p>
       <p>Alongside cutting-edge research, the site will house state-of-the-art imaging facilities, enabling scientists worldwide to access microscopy and modelling technologies specifically designed for studying tissues.</p>
       <ul>
@@ -193,14 +166,10 @@ templateEngineOverride: njk,md
         <li><a href="#">Research groups</a></li>
       </ul>
     </div>
-    <div>
-      <img src="{{'/images/cp-avatar.png' | url }}" class="cp-image-fixed"/>
-      <h4><a href="#">James Sharpe</a></h4>
-      <p>Head of EMBL Barcelona</p>
-    </div>
   </div>
 </div>
 </section>
+
 
 <section class="cp-container vf-grid vf-grid__col-1">
 <div>
@@ -246,5 +215,3 @@ templateEngineOverride: njk,md
 </div>
 </div>
 </section>
-
-<h1 class="vf-grid vf-grid__col-1" id="#discipline">Interdisciplinary research</h1>

@@ -23,7 +23,7 @@ templateEngineOverride: njk,md
     <ul class="vf-navigation__list | vf-list--inline">
       <li class="vf-navigation__item"><a href="{{ '/' | url }}" class="vf-navigation__link">Home</a></li>
       <li class="vf-navigation__item"><a href="{{ '/research' | url }}" class="vf-navigation__link">Research</a></li>
-      <li class="vf-navigation__item"><a href="{{ '/services' | url }}" class="vf-navigation__link">Services</a></li>
+      <li class="vf-navigation__item"><a href="{{ '/services' | url }}" class="vf-navigation__link">Services &amp; Facilities</a></li>
       <li class="vf-navigation__item"><a href="{{ '/training' | url }}" class="vf-navigation__link">Training</a></li>
       <li class="vf-navigation__item"><a href="{{ '/about' | url }}" class="vf-navigation__link">About EMBL</a></li>
     </ul>
@@ -32,7 +32,7 @@ templateEngineOverride: njk,md
 
 <section class="cp-container vf-grid vf-grid__col-2">
 <div class="cp-hero">
-  <p class="cp-lede">V2. EMBL is Europes Centre of Excellence in life science <a href="#research">research</a>, <a href="#services">services</a> and <a href="#training">training</a> across <a href="#">six locations</a></p>
+  <p class="cp-lede">EMBL is Europe's Centre of Excellence in life science <a href="#research">research</a>, <a href="#services">services</a> and <a href="#training">training</a> and <a href="">technology</a> across <a href="#">six locations</a></p>
   <form>
           <input type="text" placeholder="What are you looking for?" class="cp-input">
           <button class="vf-button">Search</button>
@@ -76,20 +76,16 @@ templateEngineOverride: njk,md
           <p>A description of several lines should go here to give context to the content</p>
       </div>
     <div>
-      <h4>Research units</h4>
+      <h4>Topics</h4>
       <ul>
-          <li><a href="#">Bioinformatics</a></li>
-          <li><a href="#">Cell Biology and Biophysics</a></li>
-          <li><a href="#">Developmental Biology</a></li>
-          <li><a href="#">Director's Research</a></li>
-          <li><a href="#">Epigenetics and Neurobiology</a></li>
-          <li><a href="#">Genome Biology</a></li>
-          <li><a href="#">Structural and Computational Biology</a></li>
-          <li><a href="#">Structural Biology</a></li>
-          <li><a href="#">Tissue Biology and Disease Modelling</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Interdisciplinary research</a></li>
+          <li><a href="#">Structural biology</a></li>
+          <li><a href="#">Genome biology</a></li>
+          <li><a href="#">Bioinformatic computational biology</a></li>
+          <li><a href="#">Tissue & organ biology</a></li>
+          <li><a href="#">Developmental biology</a></li>
+          <li><a href="#">Microbiology</a></li>
+          <li><a href="#">Cell biology</a></li>
+          <li><a href="#">Molecular medicine</a></li>
         </ul>
     </div>
 
@@ -99,11 +95,18 @@ templateEngineOverride: njk,md
 
 <section id="services" class="cp-container vf-grid vf-grid__col-1">
 <div>
- <h2><a href="services/index.html">Services at EMBL &rarr;</a></h2>
-
+ <h2><a href="services/index.html">Services and Facilities at EMBL &rarr;</a></h2>
+<p>Intro to services what do we mean and what are they at EMBL</p>
   <div class=" vf-grid vf-grid__col-3">
       <div>
-        <h3>Bioinformatics services</h3>
+        <h3>Structural biology services</h3>
+        <h4><a href="#">EMBL Hamburg</a></h4>
+        <p>EMBL Hamburg operates an <a href="#">integrated infrastructure for life science applications</a> using synchrotron radiation situated at the PETRA storage ring, operated by <a href="#">Helmholtz Research Centre DESY</a> in Hamburg-Bahrenfeld.</p>
+        <h4><a href="#">EMBL Grenoble</a></h4>
+        <p>EMBL Grenoble provides research services such as <a href="#">access to third generation synchrotron beamlines for macromolecular crystallography</a> and <a href="#">instruments for neutron crystallography on the high flux neutron source of the ILL</a></p>
+      </div>
+      <div>
+        <h3>Tools & Data Resources</h3>
         <p>The European Bioinformatics Institute (EMBL-EBI) maintains the world’s most comprehensive range of freely available and up-to-date molecular data resources.</p>
         <form>
           <input type="text" placeholder="Search all tools and data resources" class="cp-input">
@@ -112,27 +115,17 @@ templateEngineOverride: njk,md
         <p>Browse by <a href="#">Tool</a>, <a href="#">Data Resource</a>, or <a href="#">Type</a></p>
       </div>
       <div>
-      <h3>Core facilities</h3>
-      <ul>
-          <li><a href="#">Advanced Light Microscopy</a></li>
-          <li><a href="#">Chemical Biology</a></li>
-          <li><a href="#">Electron Microscopy</a></li>
-          <li><a href="#">Flow Cytometry</a></li>
-          <li><a href="#">Genomics</a></li>
-          <li><a href="#">Metabolomics</a></li>
-          <li><a href="#">Protein Expression and Purification</a></li>
-          <li><a href="#">Proteomics</a></li>
-        </ul>
-    </div>
-      <div>
-          <h3>Services at EMBL locations</h3>
+          <h3>EMBL Core Facilities</h3>
+          <p>Core Facilities contribute significantly to internal and external training courses and workshops, often in collaboration with industrial partners.</p>
           <ul>
-          <li><a href="#">Barcelona</a></li>
-          <li><a href="#">Hamburg</a></li>
-          <li><a href="#">Heidelberg</a></li>
-          <li><a href="#">Hinxton</a></li>
-          <li><a href="#">Grenoble</a></li>
-          <li><a href="#">Rome</a></li>
+            <li><a href="#">Advanced Light Microscopy</a></li>
+            <li><a href="#">Chemical Biology</a></li>
+            <li><a href="#">Electron Microscopy</a></li>
+            <li><a href="#">Flow Cytometry</a></li>
+            <li><a href="#">Genomics</a></li>
+            <li><a href="#">Metabolomics</a></li>
+            <li><a href="#">Protein Expression and Purification</a></li>
+            <li><a href="#">Proteomics</a></li>
         </ul>
       </div>
 
@@ -147,7 +140,13 @@ templateEngineOverride: njk,md
 
   <div class=" vf-grid vf-grid__col-2">
     <div>
-      <h3>Upcoming <a href="#">conferences</a>, <a href="#">seminars</a> and <a href="#">events</a></h3>
+    <div class="cp-box cp-promo">
+  <p class="meta"><a href="#">EMBO|EMBL Symposia</a>, <a href="#">EMBL Heidelberg</a>, Germany, 16 - 19 Oct 2019</p>
+  <h2><a href="#">The Non-Coding Genome</a></h2>
+  <p>The Non-Coding Genome  will explore the diverse, dynamic and multifaceted roles of RNA across a spectrum of cellular processes.</p>
+  <button class="vf-button">Register now</button>
+</div>
+      <h3>Upcoming <a href="#">courses</a>, <a href="#">conferences</a>, <a href="#">seminars</a> and <a href="#">events</a></h3>
        <table>
         <tbody>
           <tr>
